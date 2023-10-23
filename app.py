@@ -34,6 +34,3 @@ def reset():
     with open("details.txt", "w") as f:
         f.write("")
     return "success", 200
-
-
-app.run()
